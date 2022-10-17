@@ -9,6 +9,8 @@ tags        : [ Forense ]
 
 En esta ocasión tenemos un challenge forense en el que debemos analizar un archivo de dumpeo de memoria ram a través de la herramienta volatility, buscando archivos, dumpeándolos y decodificando la data que hay dentro del archivo.
 
+🎥WriteUp disponible en Youtube🎬 --> [https://www.youtube.com/watch?v=eg3d6HRoUzc](https://www.youtube.com/watch?v=eg3d6HRoUzc)
+
 ![](/assets/images/HTB/Reminiscent-HackTheBox/reminiscent-rating.webp)
 
 [![HTBadge](https://www.hackthebox.eu/badge/image/533771)](https://www.hackthebox.com/home/users/profile/533771)
