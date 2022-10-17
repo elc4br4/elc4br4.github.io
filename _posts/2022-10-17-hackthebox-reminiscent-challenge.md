@@ -7,7 +7,7 @@ category    : [ htb ]
 tags        : [ Forense ]
 ---
 
-En esta ocasión tenemos un challenge forense en el que debemos 
+En esta ocasión tenemos un challenge forense en el que debemos analizar un archivo de dumpeo de memoria ram a través de la herramienta volatility, buscando archivos, dumpeándolos y decodificando la data que hay dentro del archivo.
 
 ![](/assets/images/HTB/Reminiscent-HackTheBox/reminiscent-rating.webp)
 
