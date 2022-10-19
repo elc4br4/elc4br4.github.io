@@ -105,7 +105,7 @@ Hay una vulnerabilidad que podemos aprovechar, existe un Directory Traversal and
 
 ***
 
-## Grafana Directory Traversal [🔢](#Grafana Directory Traversal ) {#Grafana-Directory-Traversal }
+## Grafana Directory Traversal [🔢](#Grafana-Directory-Traversal ) {#Grafana-Directory-Traversal }
 
 Básicamente a través de esta vulnerabilidad podemos leer archivos del sistema.
 
