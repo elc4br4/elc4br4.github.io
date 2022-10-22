@@ -27,11 +27,11 @@ En esta máquina Linux de nivel medio tocaremos un poco de sqli, una explotació
     * [Reconocimiento de Puertos](#recon-nmap).
 2. [Enumeración](#enumeración).
     * [Enumeración Web](#enum-web).
-3. [Explotación](#explotacion).
+3. [Explotación](#explotación).
     * [mpdf](#mpdf).
 4. [Escalada de Privilegios](#privesc). 
-    * [meta-git](#meta-git)
-    * [gdb](#gdb)
+    * [meta-git](#meta-git).
+    * [gdb](#gdb).
     
     
 ***
