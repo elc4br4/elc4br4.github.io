@@ -7,7 +7,7 @@ category    : [ htb ]
 tags        : [ Linux ]
 ---
 
-En esta máquina Linux de nivel medio tocaremos un poco de sqli, una explotación muy chula a través de archivos pdf, escalada de privilegios con meta-git y a través de gdb aprovechándonos de un proceso que se ejecuta como root para pivotar al usuario administrador.
+🤖En esta máquina Linux de nivel medio tocaremos un poco de sqli, una explotación muy chula a través de archivos pdf, escalada de privilegios con meta-git y a través de gdb aprovechándonos de un proceso que se ejecuta como root para pivotar al usuario administrador🤖.
 
 🎥Canal Writeups Youtube🎬 --> [https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ](https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ)
 
