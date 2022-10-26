@@ -223,11 +223,11 @@ Si leemos el código del script veremos lo siguiente:
 
 Si nos fijamos bien el binario find no especifica su ruta absoluta, por lo que podríamos escalar privilegios creando un binario find falso y añadiéndole una bash en su interior, posteriormente lo exportamos al PATH de forma que al ejecutar el script cleanup.sh como root se ejecutará nuestro binario falso con el contenido de su interior.
 
-1. Creamos el falso find
+* Creamos el falso find
 
 ![](/assets/images/HTB/Photobomb-HackTheBox/find1.webp)
 
-2. Lo exportamos al PATH.
+* Lo exportamos al PATH.
 
 ```bash
 # Asiganos los permisos al binario falso
