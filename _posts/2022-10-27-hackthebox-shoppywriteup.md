@@ -7,7 +7,7 @@ category    : [ htb ]
 tags        : [ Linux ]
 ---
 
-🤖En esta máquina Linux de nivel Easy tendremos un login que debemos bypassear con una inyección sql, una vez dentro buscaremos usuarios válidos para conseguir su hash y poder loguearnos en otro panel web dentro de un vhost que debemos descubrir para conseguir credenciales ssh. Finalmente .
+🤖En esta máquina Linux de nivel Easy tendremos un login que debemos bypassear con una inyección sql, una vez dentro buscaremos usuarios válidos para conseguir su hash y poder loguearnos en otro panel web dentro de un vhost que debemos descubrir para conseguir credenciales ssh. Finalmente escalaremos privilegios a través de docker .
 
 🎥Canal Writeups Youtube🎬 --> [https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ](https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ)
 
