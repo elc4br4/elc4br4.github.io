@@ -166,8 +166,7 @@ Y consigo la contraseña en texto plano.
 
 Ahora pruebo a loguearme con el usuario james y la contraseña en el servicio ssh y consigo acceso.
 
-
-# Escalada de Privilegios 
+# Escalada de Privilegios [#](privesc) {#privesc}
 
 ***
 
