@@ -223,7 +223,7 @@ Y consigo loguearme con el usuario gbyolo y la credencial que encontré.
 
 Intento leer la user flag pero para poder leerla he de convertirme en el usuario `developer`.
 
-# Escalada de Privilegios [#](reconocimiento) {#reconocimiento}
+# Escalada de Privilegios [#](privesc) {#privesc}
 
 ***
 
