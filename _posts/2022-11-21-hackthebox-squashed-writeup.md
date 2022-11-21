@@ -29,7 +29,7 @@ tags        : [ Linux ]
     * [Puerto 80](#puerto80).
     * [Puerto 111](#puerto111).
 4. [Escalada de Privilegios](#privesc). 
-    * [.Xauthority](#.Xauthority).
+    * [.Xauthority](#Xauthority).
 
     
 ***
@@ -217,7 +217,7 @@ Ahora ya tengo una shell más estable e interactiva.
 
 
 
-## .Xauthority [☣️](#.Xauthority) {#.Xauthority}
+## .Xauthority [☣️](#Xauthority) {#Xauthority}
 
 Toca escalar privilegios, y para ello en primer lugar lanzo el script linpeas.sh
 
