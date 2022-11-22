@@ -174,13 +174,13 @@ Recordemos que estoy dentro de la ruta del servidor web, por lo que podría crea
 
 De la siguiente forma:
 
-1. Primero creo la reverse shell y la modifico con mi ip y el puerto (443 en mi caso).
+* Primero creo la reverse shell y la modifico con mi ip y el puerto (443 en mi caso).
 
 Usaré la reverse shell de pentest monkey.
 
 ![](/assets/images/HTB/Squashed-HackTheBox/rev.webp)
 
-2. La subo a la carpeta compartida descargándola con wget tras haber iniciado un servidor python3 en mi máquina local.
+* La subo a la carpeta compartida descargándola con wget tras haber iniciado un servidor python3 en mi máquina local.
 
 ```bash
 # Servidor python3 
@@ -190,7 +190,7 @@ python3 -m http.server 8081
 
 ![](/assets/images/HTB/Squashed-HackTheBox/rev2.webp)
 
-3. Pongo un oyente de netcat en escucha y ejecuto la reverse shell desde el navegador.
+* Pongo un oyente de netcat en escucha y ejecuto la reverse shell desde el navegador.
 
 ![](/assets/images/HTB/Squashed-HackTheBox/alex.webp)
 
@@ -235,9 +235,9 @@ Buscando información al respecto encuentro lo siguiente.
 
 Para <span style="color:red">conseguir la escalada de privilegios sigo estos pasos</span>:
 
-1. Primero paso el archivo .Xauthority a la sesión del usuario alex (la de la reverse shell)
+* Primero paso el archivo .Xauthority a la sesión del usuario alex (la de la reverse shell)
 
-2. A continuación ejecuto los siguientes comandos en la sesión de alex (la de la reverse shell).
+* A continuación ejecuto los siguientes comandos en la sesión de alex (la de la reverse shell).
 
 ```bash
 XAUTHORITY=/tmp/.Xauthority
@@ -248,9 +248,9 @@ export XAUTHORITY
 xwd -root -screen -silent -display :0 -out /tmp/captura.xwd
 ```
 
-3. Pasamos el archivo screen.xwd a la máquina atacante a través de un servidor http.server de python
+* Pasamos el archivo screen.xwd a la máquina atacante a través de un servidor http.server de python
 
-4. Abrimos la captura.
+* Abrimos la captura.
 
 ```bash
 xwud -in captura.xwd
