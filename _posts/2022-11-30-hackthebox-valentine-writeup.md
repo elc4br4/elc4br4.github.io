@@ -2,7 +2,7 @@
 layout      : post
 title       : "Valentine - HackTheBox"
 author      : elc4br4
-image       : assets/images/HTB/Valentine-HackTheBox/Valentine.webp
+image       : assets/images/HTB/Valentine-HackTheBox/valentine.webp
 category    : [ htb ]
 tags        : [ Linux ]
 ---
@@ -25,7 +25,7 @@ En esta máquina Linux de nivel easy tocaremos un poco de todo, ftp, subiremos u
 
 1. [Reconocimiento](#reconocimiento).
     * [Reconocimiento de Puertos](#recon-nmap).
-2. [Puerto 443](#puerto-443)
+2. [Puerto 443](#puerto443)
 3. [Explotación](#explotación).
 4. [Escalada de Privilegios](#privesc).
 
