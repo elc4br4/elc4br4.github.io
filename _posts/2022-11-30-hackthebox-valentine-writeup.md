@@ -7,7 +7,7 @@ category    : [ htb ]
 tags        : [ Linux ]
 ---
 
-En esta máquina Linux de nivel easy tocaremos un poco de todo, ftp, subiremos una webshell al servidor web, obtendremos una shell inversa, nos migraremos a una sesión en metasploit y escalaremos privilegios usando Sherlock y explotando una vulnerabilidad existente en el sistema que otorga privilegios.
+En esta máquina Linux de nivel easy explotaremos una vulnerabilidad conocida como Heartbleed y acabremos escalando privilegios a través de tmux.
 
 🎥Canal Writeups Youtube🎬 --> [https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ](https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ)
 
