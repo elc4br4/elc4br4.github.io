@@ -7,7 +7,7 @@ category    : [ htb ]
 tags        : [ Linux ]
 ---
 
-🎮🕹️En esta máquina Linux de nivel easy tocaremos un poco de sql, a través de sqlmap, explotaremos una vulnerabilidad stti y escalaremos privielgios a través del binario bash jugando con los poermisos del mismo desde docker y una shell ssh🕹️🎮.
+🎮🕹️En esta máquina Linux de nivel easy tocaremos un poco de sql, a través de sqlmap, explotaremos una vulnerabilidad ssti y escalaremos privielgios a través del binario bash jugando con los poermisos del mismo desde docker y una shell ssh🕹️🎮.
 
 🎥Canal Writeups Youtube🎬 --> [https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ](https://www.youtube.com/channel/UCllewdxU0OQudNp9-1IVJYQ)
 
@@ -233,7 +233,10 @@ Veo que usa la tecnología Werkzeug/2.0.2 Python/3.6.7 y usa Flask por lo que co
 
 Lo que pude ver en el panel web es que puedo actualizar el nombre del usuario administrador, por lo que probé diferentes cosas, como por ejemplo un pequeño payload SSTI.
 
-`{{7*7}}`
+```ssti
+# Payload para detectar SSTI
+{{7*7}}
+```
 
 Y puedo ver la respuesta en el propio panel web.
 
