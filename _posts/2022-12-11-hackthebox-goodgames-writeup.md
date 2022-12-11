@@ -148,7 +148,7 @@ Lo añado al vhost y accedo desde el navegador.
 
 Al acceder me encuentro con un panel de inicio de sesión, pero no dispongo de credenciales por lo que primero he de buscarlas y lo único que se me ocurre es volver atrás... en el punto de la inyección sql en el campo del email del login.
 
-Por lo que decido usar la herramienta sql y para ello sigo estos pasos:
+Por lo que decido usar la herramienta sqlmap y para ello sigo estos pasos:
 
 * Capturo la petición con burpsuite y la guardo en un archivo.
 
