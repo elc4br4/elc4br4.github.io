@@ -233,10 +233,7 @@ Veo que usa la tecnología Werkzeug/2.0.2 Python/3.6.7 y usa Flask por lo que co
 
 Lo que pude ver en el panel web es que puedo actualizar el nombre del usuario administrador, por lo que probé diferentes cosas, como por ejemplo un pequeño payload SSTI.
 
-```bash
-# Payload para detectar SSTI
-{{7*7}}
-```
+![](/assets/images/HTB/Goodgames-HackTheBox/pay.webp)
 
 Y puedo ver la respuesta en el propio panel web.
 
