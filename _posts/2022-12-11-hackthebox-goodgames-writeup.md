@@ -2,7 +2,7 @@
 layout      : post
 title       : "Goodgames - HackTheBox"
 author      : elc4br4
-image       : assets/images/HTB/Goodgames-HackTheBox/goodgames.svg
+image       : assets/images/HTB/Goodgames-HackTheBox/goodgames.webp
 category    : [ htb ]
 tags        : [ Linux ]
 ---
