@@ -293,6 +293,7 @@ Antes de nada realizo un descubrimiento de hosts en la red 172.19.0.2, a través
 
 ```bash
 #!/bin/bash
+
 function ctrl_c(){
 	echo -e "\n\n[!] Saliendo...\n"
 	tput cnorm; exit 1
@@ -316,6 +317,7 @@ Descubro que el host 172.19.0.1 está activo, por lo que el siguiente paso es re
 
 ```bash
 #!/bin/bash
+
 function ctrl_c(){
 	echo -e "\n\n[!] Saliendo... \n"
 	tput cnorm; exit 1
