@@ -67,11 +67,8 @@ Service Info: Host: goodgames.htb
 
 > Servidor Apache 2.4.51
 
-# Enumeración [#](enumeración) {#enumeración}
 
-***
-
-## Enumeración Web [🔢](#enum-web) {#enum-web}
+# Enumeración Web [🔢](#enum-web) {#enum-web}
 
 Antes de acceder a ojear el servidor web desde el navegador, lanzo la herramienta whatweb para que me arroje informacióna acerca de la web que corre en el puerto 80.
 
