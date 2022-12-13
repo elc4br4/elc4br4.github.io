@@ -20,9 +20,9 @@ tags        : [ Linux ]
 **Un pequeño INDICE**
 
 1. [Reconocimiento](#reconocimiento).
-2. [Enumeración Web](#enum-web).
+2. [Enumeración Web](#enumeración).
 3. [Explotación](#explotación).
-4. [Escalada de Privilegios](#privesc).
+4. [Escalada de Privilegios](#priv-esc).
 
 
 ***
@@ -138,9 +138,9 @@ Puedo ver que estoy ante un cms llamado strapi, por lo que lo primero que haré 
 
 ![](/assets/images/HTB/Horizontall-HackTheBox/searchsploit.webp)
 
-Encuentro dos exploits, y no necesito estar autenticado, por lo que uso uno de ellos, en concreto el que esta porgramado en python.
+Encuentro dos exploits, y no necesito estar autenticado, por lo que uso uno de ellos, en concreto el que esta programado en python.
 
-Este exploit lo que hace es cambiar las credenciales de acceso y me otorgaría acceso al panel de strapi, además de la posbilidad de ejecutar comandos, es decir RCE.
+Este exploit lo que hace es cambiar las credenciales de acceso y me otorgaría acceso al panel de strapi, además de la posibilidad de ejecutar comandos, es decir RCE.
 
 Una vez lo tengo lo ejecuto:
 
@@ -176,7 +176,7 @@ Y porfin consigo acceso al sistema.
 A continuación actulizo la tty para tener una shell más interactiva y funcional.
 
 
-# Escalada de Privilegios [#](Escalada) {#priv-esc}
+# Escalada de Privilegios [#](priv-esc) {#priv-esc}
 
 
 Lanzo linpeas.sh para encontrar una vía potencial de escalada de privilegios.
