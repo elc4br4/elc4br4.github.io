@@ -44,7 +44,7 @@ El comando ps mostrará lo siguiente:
     Tiempo: cantidad de tiempo de CPU usado para el proceso
 
     CMD: comando o ejecutable en ejecución
-    ```
+```
 
 ![](/assets/images/escalada-de-privilegios/pscommand.png)
 
